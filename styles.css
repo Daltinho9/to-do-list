@@ -1,0 +1,61 @@
+body{
+    background-color: rgba(0, 0, 0, 0.199);
+}
+
+h1{
+    text-align: center;
+}
+
+#ul-container{
+    display: flex;
+    justify-content: center;
+}
+
+.ul-background{
+    background: lightblue;
+    min-height: 100px;
+    width: 400px;
+    border-radius: 7px;
+}
+
+#task-heading{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#task-footer{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#task{
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    background-color: beige;
+    margin: 5px;
+    padding-left: 20px;
+}
+
+#task:focus{
+    padding-left: 20px;
+    
+}
+
+#submit{
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    margin: 0;
+    background-color: beige;
+}
+
+#submit:disabled{
+    background-color: none;
+}
